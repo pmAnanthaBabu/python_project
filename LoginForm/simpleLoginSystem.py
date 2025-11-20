@@ -28,7 +28,7 @@ password_entry.grid(row=1, column=1)
 
 # Create login button
 login_button = tk.Button(root, text="Login", command=login)
-login_button.grid(row=2, column=0, columnspan=2) 
+login_button.grid(row=2, column=0, columnspan=2)
 
 # Run the Tkinter event loop
 root.mainloop()
